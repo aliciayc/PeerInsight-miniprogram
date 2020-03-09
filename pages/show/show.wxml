@@ -1,0 +1,11 @@
+<swiper class="section sol white" indicator-dots="{{ true }}">
+  <block wx:for="{{ entity.sol }}">
+    <swiper-item>
+      <view class="content">
+        <view class="sub-header">Answer</view>
+        <view class="header">{{ item.header }}</view>
+        <view class="description">{{ item.description }}</view>
+      </view>
+    </swiper-item>
+  </block>
+</swiper>

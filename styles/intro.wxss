@@ -1,0 +1,6 @@
+.intro {
+  background-color: #ffff;
+  text-align: center;
+  font-size: 36rpx;
+  margin-bottom: 10rpx;
+}

@@ -1,0 +1,54 @@
+.slide {
+  background-color: #fff;
+}
+
+.slide.intro {
+  text-align: center;
+  font-size: 100rpx;
+  margin-bottom: 20rpx;
+}
+
+.slide image {
+  width: 100%;
+  height: 50vh;
+}
+
+.slide.white {
+  background: #fff;
+}
+
+.slide.small .header {
+  font-size: 56rpx;
+  margin-bottom: 48rpx;
+}
+
+.slide.small .sub-header {
+  font-size: 24rpx;
+}
+
+.slide .content {
+  padding-top: 10%;
+}
+
+.slide .content.centered {
+  text-align: center;
+}
+
+.slide .sub-header {
+  font-size: 32rpx;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 8px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.slide .header {
+  font-size: 72rpx;
+  font-weight: bold;
+  margin: 0 12% 8px;
+}
+
+.slide .description {
+  padding: 0 12%;
+  margin-bottom: -18px;
+}

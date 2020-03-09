@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/aboutUs/aboutUs",
+    "pages/zhushou/zhushou",
+    "pages/show/show",
+    "pages/16/16",
+    "pages/17/17",
+    "pages/18/18",
+    "pages/19/19",
+    "pages/Of/Of"
+  ],
+  "window": {
+    "navigationBarTitleText": "PeerInsight",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#ededed",
+    "list": [
+      {
+        "text": "Resources",
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/icons/sol.png",
+        "selectedIconPath": "assets/icons/sol-active.png"
+      },
+      {
+        "text": "About us",
+        "pagePath": "pages/aboutUs/aboutUs",
+        "iconPath": "assets/icons/us.png",
+        "selectedIconPath": "assets/icons/us-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

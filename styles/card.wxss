@@ -1,0 +1,61 @@
+.cards {
+    padding: 16px;
+  }
+
+  .card {
+      background: #ffffff;
+      margin-bottom: 16px;
+      transition: 0.5s all;
+    }
+
+    .card.hover {
+      box-shadow: 0 32px 48px rgba(0, 0, 0, 0.06);
+    }
+
+    .card .label {
+      position: absolute;
+      bottom: 8px;
+      right: 8px;
+      font-size: 24rpx;
+      padding: 4rpx 8rpx;
+      background: rgba(0, 0, 0, 0.85);
+      color: rgba(255, 255, 255, 0.9);
+      border-radius: 2px;
+    }
+    
+    .card .content {
+      padding: 48rpx 48rpx 64rpx;
+    }
+
+    .card .header {
+      font-size: 40rpx;
+      font-weight: bold;
+      letter-spacing: 2rpx;
+      margin-bottom: 48rpx;
+    }
+
+    .card .header::after {
+      content: "";
+      display: block;
+      width: 62.5px;
+      border-bottom: 2px solid #000;
+      padding-bottom: -100px;
+    }
+
+    .card .sub-header {
+      font-size: 32rpx;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    .card .description {
+      margin-bottom: 0px;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 32rpx;
+    }
+
+    .card .meta {
+      margin-bottom: -40px;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 32rpx;
+    }

@@ -1,0 +1,17 @@
+<image src="../index/photos/solutionHeader.png" mode="aspectFit" />
+<view class="cards">
+  <view class="card" hover-class="hover" wx:for="{{ entities }}" wx:key="id">
+    <navigator url="/pages/show/show?id={{ item.id }}" hover-class="none">
+      <view class="content">
+        <view class="header">
+          {{ item.header }}
+          <view class="sub-header">
+            {{ item.sub_header }}
+          </view>
+        </view>
+        <view class="description">点击此处查看答案</view>
+        <view class="meta">View Answers</view>
+      </view>
+    </navigator>
+  </view>
+</view>

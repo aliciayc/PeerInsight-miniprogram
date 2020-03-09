@@ -1,0 +1,4 @@
+/* pages/zhushou/zhushou.wxss */
+.zhushou image{
+  height: 85vh;
+  }

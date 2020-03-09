@@ -1,0 +1,20 @@
+.button {
+    left: 25%;
+    display: inline-block;
+    margin: 4px;
+    background: #e0e1e2;
+    padding: 0 24px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    border-radius: 1px;
+    font-size: 32rpx;
+    transition: 0.3s all;
+  }
+
+  .button::after {
+    content: none;
+  }
+
+.button-hover {
+  opacity: 0.75;
+}

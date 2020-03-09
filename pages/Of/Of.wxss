@@ -1,0 +1,4 @@
+/* pages/Of/Of.wxss */
+page{
+ background-color: #ffffff 
+}

@@ -1,0 +1,8 @@
+<view class="intro">
+<view>
+  <view>请添加小助手微信了解详情</view>
+</view>
+<view class="zhushou">
+  <image src="zhushou.png" mode="aspectFit"/>
+</view>
+</view>

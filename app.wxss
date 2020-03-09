@@ -1,0 +1,27 @@
+@import 'styles/slide.wxss';
+@import 'styles/button.wxss';
+@import 'styles/button2.wxss';
+@import 'styles/card.wxss';
+@import 'styles/action.wxss';
+@import 'styles/intro.wxss';
+@import 'styles/zhushou.wxss';
+@import 'styles/sol.wxss';
+
+page {
+  background: #ffff;
+  line-height: 1.5;
+  font-size: 32rpx
+}
+
+.section {
+  height: 100vh;
+}
+
+image {
+  display: block;
+  width: 100%;
+}
+
+video {
+  width: 100%;
+}
